@@ -1,6 +1,6 @@
 import { AtomEffect, DefaultValue } from "recoil";
+import { GraphQLMutationEffectOptions } from "./graphQLMutationEffect.types";
 import RecoilApollo from "./RecoilApollo";
-import { GraphQLMutationEffectOptions } from "./types";
 import { castNode, fetchSymbol } from "./utils";
 
 export const graphQLMutationEffect =
